@@ -1,6 +1,6 @@
 {
     "name": "phil/almanac-bundle",
-    "description": "phil/almanac in Symfony: computed dates declared in configuration or kept in the database for an administrator, the almanac as a service, its form, its dates, eclipses and the sunrise and sunset of configured places in Twig",
+    "description": "phil/almanac in Symfony: holidays and computed dates declared in configuration or edited by an administrator, shown in forms and Twig.",
     "license": "MIT",
     "type": "symfony-bundle",
     "keywords": [
@@ -37,6 +37,7 @@
         "doctrine/persistence": "^4.1",
         "phpunit/phpunit": "^13.4",
         "psr/log": "^3.0",
+        "symfony/doctrine-bridge": "^8.2",
         "symfony/event-dispatcher": "^8.2",
         "symfony/framework-bundle": "^8.2",
         "symfony/translation": "^8.2",
@@ -63,7 +64,7 @@
     },
     "extra": {
         "branch-alias": {
-            "dev-main": "0.1.x-dev"
+            "dev-main": "0.2.x-dev"
         }
     }
 }
